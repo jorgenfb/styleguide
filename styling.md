@@ -69,7 +69,22 @@ stylesheets
 ```
 
 ## Comments
-TODO
+Use docBlock comments for components. 
+```
+/**
+ * This is a docBlock comment
+ *
+ * The first line in the comment should be a short description of the component. 
+ * Longer description goes here. Using markup in comments are great for creating
+ * copy & paste examples:
+ <div class="my-component">
+     <h1 class="my-component__header">Title</h1>
+ </div>
+ * Do not prefix markup with a star. Copy & pasting is much easier without it.
+ */
+```
+
+SCSS supports `//´ style comments. They are really useful for toggling properties.
 
 ## Links
 Great tools:
@@ -83,6 +98,7 @@ These pages has provided me great inspiration:
 - [GitHub - CSS Style Guide](https://github.com/styleguide/css)
 - [Scalable and Modular Architecture for CSS](http://smacss.com/)
 - [A style-guide for modular SASS development using SMACSS and BEM](https://medium.com/objects-in-space/f6f404727)
+- [CSS Wizardry - CSS Style guide](https://github.com/csswizardry/CSS-Guidelines/blob/master/README.md)
 
 
 
