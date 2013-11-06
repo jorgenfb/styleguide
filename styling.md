@@ -5,7 +5,7 @@ Styling are done with [SASS](http://sass-lang.com/) using the SCSS syntax.
 ## Selector rules
 - Don't use IDs, like: `#header`
 - No overqualifing, like: `div.foo`
-- No universal selectors, like: `*`. The only exception is for styles that should apply to **all** elements, such as `* { box-sizing: border-box }`
+- No universal selectors, like: `*`. The only exception is for styles that should apply to **all** elements, such as `* { box-sizing: border-box }`. See [Googles 'Use Efficient CSS selectors'](https://developers.google.com/speed/docs/best-practices/rendering?hl=de-DE&csw=1#UseEfficientCSSSelectors)
 
 ## Coding Style
 - Use tabs for indent
