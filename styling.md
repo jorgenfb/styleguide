@@ -2,17 +2,24 @@ Overview
 ========
 Styling are done with [SASS](http://sass-lang.com/) using the SCSS syntax.
 
+## Selector rules
+- Don't use IDs, like: `#header`
+- No overqualifing, like: `div.foo`
+- No universal selectors, like: `*`. The only exception is for styles that should apply to **all** elements, such as `* { box-sizing: border-box }`
+
 ## Coding Style
 - Use tabs for indent
 - Put spaces after `:` in property declarations
 - Use hex color codes `#fff` unless using rgba
 - One selector per line, one rule per line
+- No unit on zero values.
 
 Lets look at an example:
 ```css
 // This is a great example.
 .first-component,
 .second-component {
+    margin: 0;
     color: #fff;
     background: rgba(0,0,0,0.5);
 }
@@ -72,8 +79,8 @@ Great tools:
 ## Inspiration
 These pages has provided me great inspiration:
 - [CSS-Tricks - Sass Style Guide](http://css-tricks.com/sass-style-guide/)
-- [CSS-Tricks - CSS Syle Guide](http://css-tricks.com/css-style-guides/)
-- [GitHub - CSS Styleguide](https://github.com/styleguide/css)
+- [CSS-Tricks - CSS Style Guide](http://css-tricks.com/css-style-guides/)
+- [GitHub - CSS Style Guide](https://github.com/styleguide/css)
 - [Scalable and Modular Architecture for CSS](http://smacss.com/)
 - [A style-guide for modular SASS development using SMACSS and BEM](https://medium.com/objects-in-space/f6f404727)
 
