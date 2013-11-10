@@ -84,7 +84,7 @@ Use docBlock comments for components.
  */
 ```
 
-SCSS supports `//´ style comments. They are really useful for toggling properties.
+SCSS supports `//` style comments. They are really useful for toggling properties.
 
 ## Links
 Great tools:
